@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		04FA8F71248B8011006C6F1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA8F70248B8011006C6F1B /* AppDelegate.swift */; };
 		04FA8F73248B8011006C6F1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA8F72248B8011006C6F1B /* SceneDelegate.swift */; };
-		04FA8F75248B8011006C6F1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA8F74248B8011006C6F1B /* ViewController.swift */; };
+		04FA8F75248B8011006C6F1B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA8F74248B8011006C6F1B /* HomeViewController.swift */; };
 		04FA8F78248B8011006C6F1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FA8F76248B8011006C6F1B /* Main.storyboard */; };
 		04FA8F7A248B8015006C6F1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FA8F79248B8015006C6F1B /* Assets.xcassets */; };
 		04FA8F7D248B8015006C6F1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FA8F7B248B8015006C6F1B /* LaunchScreen.storyboard */; };
@@ -17,13 +17,14 @@
 		04FA8F8B248B8399006C6F1B /* IconPlane.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FA8F8A248B8399006C6F1B /* IconPlane.png */; };
 		04FA8F8D248B86BF006C6F1B /* AirportStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA8F8C248B86BF006C6F1B /* AirportStations.swift */; };
 		04FA8F90248B8AE8006C6F1B /* StationConnections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA8F8F248B8AE8006C6F1B /* StationConnections.swift */; };
+		04FA8F94248BE7B6006C6F1B /* SearchAirportListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA8F93248BE7B6006C6F1B /* SearchAirportListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04FA8F6D248B8011006C6F1B /* FlightSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FA8F70248B8011006C6F1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04FA8F72248B8011006C6F1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04FA8F74248B8011006C6F1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04FA8F74248B8011006C6F1B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		04FA8F77248B8011006C6F1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04FA8F79248B8015006C6F1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04FA8F7C248B8015006C6F1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +33,7 @@
 		04FA8F8A248B8399006C6F1B /* IconPlane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconPlane.png; sourceTree = "<group>"; };
 		04FA8F8C248B86BF006C6F1B /* AirportStations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportStations.swift; sourceTree = "<group>"; };
 		04FA8F8F248B8AE8006C6F1B /* StationConnections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationConnections.swift; sourceTree = "<group>"; };
+		04FA8F93248BE7B6006C6F1B /* SearchAirportListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAirportListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,8 @@
 		04FA8F84248B81A2006C6F1B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				04FA8F74248B8011006C6F1B /* ViewController.swift */,
+				04FA8F74248B8011006C6F1B /* HomeViewController.swift */,
+				04FA8F93248BE7B6006C6F1B /* SearchAirportListViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -193,10 +196,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04FA8F90248B8AE8006C6F1B /* StationConnections.swift in Sources */,
-				04FA8F75248B8011006C6F1B /* ViewController.swift in Sources */,
+				04FA8F75248B8011006C6F1B /* HomeViewController.swift in Sources */,
 				04FA8F71248B8011006C6F1B /* AppDelegate.swift in Sources */,
 				04FA8F8D248B86BF006C6F1B /* AirportStations.swift in Sources */,
 				04FA8F73248B8011006C6F1B /* SceneDelegate.swift in Sources */,
+				04FA8F94248BE7B6006C6F1B /* SearchAirportListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
