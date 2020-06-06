@@ -8,8 +8,15 @@
 
 import UIKit
 
+protocol SelectOriginDelegate: NSObjectProtocol {
+    func selectStationOrigin(item: Stations)
+}
+
+protocol SelectDestinationDelegate: NSObjectProtocol {
+    func selectStationDestination(item: Stations)
+}
+
 class SearchAirportListViewController: UIViewController {
-    
     
     @IBOutlet var tableView: UITableView!
     @IBOutlet var searchBar: UISearchBar!
@@ -19,6 +26,8 @@ class SearchAirportListViewController: UIViewController {
     var searchStation = [Stations]()
     var searching = false
     
+    weak var delegate: SelectOriginDelegate?
+    weak var delegate2: SelectDestinationDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,10 +45,10 @@ class SearchAirportListViewController: UIViewController {
             }
         }
     }
-       
+    
 }
 
- // MARK: - TableView
+// MARK: - TableView
 
 extension SearchAirportListViewController: UITableViewDelegate, UITableViewDataSource  {
     
@@ -65,6 +74,21 @@ extension SearchAirportListViewController: UITableViewDelegate, UITableViewDataS
             return cell
         }
         
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        if searching{
+            let select = self.searchStation[indexPath.row]
+            delegate?.selectStationOrigin(item: select)
+            delegate2?.selectStationDestination(item: select)
+            self.dismiss(animated: true, completion: nil)
+        }else{
+            let select = self.stationArray[indexPath.row]
+            delegate?.selectStationOrigin(item: select)
+            delegate2?.selectStationDestination(item: select)
+            self.dismiss(animated: true, completion: nil)
+        }
     }
     
 }
