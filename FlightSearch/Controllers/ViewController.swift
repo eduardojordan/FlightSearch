@@ -9,12 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    private let airportStations = StationConnections()
+    var stationArray = [AirportStations]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+         callAirportStationList()
+        
     }
-
-
+    
+    func callAirportStationList(){
+        airportStations.callStationsList { airportStations in
+            print("Tenemos STATIONS \(airportStations.stations)")
+        }
+        
+    }
+    
+    
 }
 

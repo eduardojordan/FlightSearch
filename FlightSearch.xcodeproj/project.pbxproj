@@ -15,6 +15,8 @@
 		04FA8F7D248B8015006C6F1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FA8F7B248B8015006C6F1B /* LaunchScreen.storyboard */; };
 		04FA8F89248B8393006C6F1B /* FlightSearch-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FA8F88248B8393006C6F1B /* FlightSearch-Logo.png */; };
 		04FA8F8B248B8399006C6F1B /* IconPlane.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FA8F8A248B8399006C6F1B /* IconPlane.png */; };
+		04FA8F8D248B86BF006C6F1B /* AirportStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA8F8C248B86BF006C6F1B /* AirportStations.swift */; };
+		04FA8F90248B8AE8006C6F1B /* StationConnections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA8F8F248B8AE8006C6F1B /* StationConnections.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		04FA8F7E248B8015006C6F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04FA8F88248B8393006C6F1B /* FlightSearch-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlightSearch-Logo.png"; sourceTree = "<group>"; };
 		04FA8F8A248B8399006C6F1B /* IconPlane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconPlane.png; sourceTree = "<group>"; };
+		04FA8F8C248B86BF006C6F1B /* AirportStations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportStations.swift; sourceTree = "<group>"; };
+		04FA8F8F248B8AE8006C6F1B /* StationConnections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationConnections.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 		04FA8F6F248B8011006C6F1B /* FlightSearch */ = {
 			isa = PBXGroup;
 			children = (
+				04FA8F8E248B8AD8006C6F1B /* ConnectionsData */,
 				04FA8F86248B81B9006C6F1B /* Models */,
 				04FA8F85248B81AE006C6F1B /* Views */,
 				04FA8F84248B81A2006C6F1B /* Controllers */,
@@ -92,6 +97,7 @@
 		04FA8F86248B81B9006C6F1B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				04FA8F8C248B86BF006C6F1B /* AirportStations.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -103,6 +109,14 @@
 				04FA8F8A248B8399006C6F1B /* IconPlane.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		04FA8F8E248B8AD8006C6F1B /* ConnectionsData */ = {
+			isa = PBXGroup;
+			children = (
+				04FA8F8F248B8AE8006C6F1B /* StationConnections.swift */,
+			);
+			path = ConnectionsData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,8 +192,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FA8F90248B8AE8006C6F1B /* StationConnections.swift in Sources */,
 				04FA8F75248B8011006C6F1B /* ViewController.swift in Sources */,
 				04FA8F71248B8011006C6F1B /* AppDelegate.swift in Sources */,
+				04FA8F8D248B86BF006C6F1B /* AirportStations.swift in Sources */,
 				04FA8F73248B8011006C6F1B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
