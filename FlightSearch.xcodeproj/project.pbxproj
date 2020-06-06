@@ -13,6 +13,8 @@
 		04FA8F78248B8011006C6F1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FA8F76248B8011006C6F1B /* Main.storyboard */; };
 		04FA8F7A248B8015006C6F1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FA8F79248B8015006C6F1B /* Assets.xcassets */; };
 		04FA8F7D248B8015006C6F1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FA8F7B248B8015006C6F1B /* LaunchScreen.storyboard */; };
+		04FA8F89248B8393006C6F1B /* FlightSearch-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FA8F88248B8393006C6F1B /* FlightSearch-Logo.png */; };
+		04FA8F8B248B8399006C6F1B /* IconPlane.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FA8F8A248B8399006C6F1B /* IconPlane.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		04FA8F79248B8015006C6F1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04FA8F7C248B8015006C6F1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04FA8F7E248B8015006C6F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FA8F88248B8393006C6F1B /* FlightSearch-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlightSearch-Logo.png"; sourceTree = "<group>"; };
+		04FA8F8A248B8399006C6F1B /* IconPlane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconPlane.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 		04FA8F87248B81C8006C6F1B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				04FA8F88248B8393006C6F1B /* FlightSearch-Logo.png */,
+				04FA8F8A248B8399006C6F1B /* IconPlane.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -157,8 +163,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FA8F8B248B8399006C6F1B /* IconPlane.png in Resources */,
 				04FA8F7D248B8015006C6F1B /* LaunchScreen.storyboard in Resources */,
 				04FA8F7A248B8015006C6F1B /* Assets.xcassets in Resources */,
+				04FA8F89248B8393006C6F1B /* FlightSearch-Logo.png in Resources */,
 				04FA8F78248B8011006C6F1B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
