@@ -14,6 +14,11 @@ class HomeViewController: UIViewController, SelectOriginDelegate, SelectDestinat
     @IBOutlet var originStationButton: UIButton!
     @IBOutlet var destinationStationButton: UIButton!
     @IBOutlet var searchButton: UIButton!
+    @IBOutlet var departureButton: UIButton!
+    @IBOutlet var adultsButton: UIButton!
+    @IBOutlet var teenButton: UIButton!
+    @IBOutlet var chidrenButton: UIButton!
+    @IBOutlet var dateLabel: UILabel!
     
     var getOrigin = ""{
         didSet{
@@ -29,13 +34,20 @@ class HomeViewController: UIViewController, SelectOriginDelegate, SelectDestinat
         }
     }
     
+    var dateSelect:String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         originStationButton.addTarget(self, action: #selector(actionOrigin), for: .touchUpInside)
         destinationStationButton.addTarget(self, action: #selector(actionDestination), for: .touchUpInside)
+        departureButton.addTarget(self, action: #selector(actionDate), for: .touchUpInside)
         radiusButtons()
         
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.dateLabel.text = dateSelect
     }
     
     @objc func actionOrigin(){
@@ -56,6 +68,14 @@ class HomeViewController: UIViewController, SelectOriginDelegate, SelectDestinat
         
     }
     
+    @objc func actionDate(){
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "CalendarViewController") as! CalendarViewController
+        self.present(controller, animated: true, completion: nil)
+        
+    }
+    
     func selectStationOrigin(item: Stations) {
         self.getOrigin = item.name.uppercased()
     }
@@ -68,6 +88,10 @@ class HomeViewController: UIViewController, SelectOriginDelegate, SelectDestinat
         self.destinationStationButton.layer.cornerRadius = 20
         self.originStationButton.layer.cornerRadius = 20
         self.searchButton.layer.cornerRadius = 20
+        self.departureButton.layer.cornerRadius = 20
+        self.adultsButton.layer.cornerRadius = 20
+        self.teenButton.layer.cornerRadius = 20
+        self.chidrenButton.layer.cornerRadius = 20
     }
     
     

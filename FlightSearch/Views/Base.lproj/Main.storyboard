@@ -10,7 +10,7 @@
         <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="FlightSearch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="BYZ-38-t0r" customClass="HomeViewController" customModule="FlightSearch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -59,6 +59,49 @@
                                 <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="TO"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vej-cG-vSX">
+                                <rect key="frame" x="212" y="524" width="149" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1547369361" green="0.205817312" blue="0.30542260409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="tintColor" cyan="0.0" magenta="0.31" yellow="0.87" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="30"/>
+                                <state key="normal" title="ADULTS"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yqs-lF-vf5">
+                                <rect key="frame" x="212" y="590" width="149" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1547369361" green="0.205817312" blue="0.30542260409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="tintColor" cyan="0.0" magenta="0.31" yellow="0.87" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="30"/>
+                                <state key="normal" title="CHILDREN"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xV3-wx-Sbx">
+                                <rect key="frame" x="51" y="524" width="153" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1547369361" green="0.205817312" blue="0.30542260409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="tintColor" cyan="0.0" magenta="0.31" yellow="0.87" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="30"/>
+                                <state key="normal" title="DEPARTURE DATE"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="73q-Mi-3O8">
+                                <rect key="frame" x="51" y="590" width="153" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1547369361" green="0.205817312" blue="0.30542260409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="tintColor" cyan="0.0" magenta="0.31" yellow="0.87" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="30"/>
+                                <state key="normal" title="TEEN"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFK-QE-msF">
+                                <rect key="frame" x="51" y="553" width="153" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="0.88118043660000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.98812188850000005" green="1" blue="0.99588774739999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -69,14 +112,54 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="adultsButton" destination="vej-cG-vSX" id="8uv-Th-up5"/>
+                        <outlet property="chidrenButton" destination="Yqs-lF-vf5" id="Ifg-iu-2gQ"/>
+                        <outlet property="dateLabel" destination="sFK-QE-msF" id="IUz-pR-cOo"/>
+                        <outlet property="departureButton" destination="xV3-wx-Sbx" id="yf5-HT-djd"/>
                         <outlet property="destinationStationButton" destination="8SE-k9-Dx9" id="49T-UN-35x"/>
                         <outlet property="originStationButton" destination="Ova-ho-7tB" id="XJV-ql-gzf"/>
                         <outlet property="searchButton" destination="iEU-3p-8uN" id="nAC-w9-gcs"/>
+                        <outlet property="teenButton" destination="73q-Mi-3O8" id="ava-IQ-mKr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="120.53571428571428"/>
+        </scene>
+        <!--Delegate-->
+        <scene sceneID="LH4-DF-BBU">
+            <objects>
+                <viewController storyboardIdentifier="CalendarViewController" id="DpO-18-Cq3" customClass="CalendarViewController" customModule="FlightSearch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CJf-gX-Gbb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Mm-Px-okv" customClass="FSCalendar">
+                                <rect key="frame" x="0.0" y="94" width="414" height="300"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="ILR-Ou-3oK"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="DpO-18-Cq3" id="gnr-5Q-kms"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="7Mm-Px-okv" firstAttribute="leading" secondItem="1wf-oh-U0J" secondAttribute="leading" id="5Sr-Cb-nsx"/>
+                            <constraint firstItem="1wf-oh-U0J" firstAttribute="trailing" secondItem="7Mm-Px-okv" secondAttribute="trailing" id="BBw-NY-gmX"/>
+                            <constraint firstItem="7Mm-Px-okv" firstAttribute="top" secondItem="1wf-oh-U0J" secondAttribute="top" constant="50" id="wag-nH-AkS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1wf-oh-U0J"/>
+                    </view>
+                    <connections>
+                        <outlet property="calendar" destination="7Mm-Px-okv" id="2vp-YN-9LU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N1X-Mc-ZQ2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="929" y="-567"/>
         </scene>
         <!--Search Airport List View Controller-->
         <scene sceneID="qwF-zQ-saH">

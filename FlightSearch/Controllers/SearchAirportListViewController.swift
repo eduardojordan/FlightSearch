@@ -26,6 +26,7 @@ class SearchAirportListViewController: UIViewController {
     var searchStation = [Stations]()
     var searching = false
     
+    
     weak var delegate: SelectOriginDelegate?
     weak var delegate2: SelectDestinationDelegate?
     

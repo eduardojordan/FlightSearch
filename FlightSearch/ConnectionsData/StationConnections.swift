@@ -40,7 +40,6 @@ class StationConnections {
                     let decoder = JSONDecoder()
                     self.airportStations = try decoder.decode(AirportStations.self, from: data)
                     completion(self.airportStations!)
-                   // print("Tenemos : \(String(describing: self.airportStations))")
                 } catch  {
                     print("Error. \(error)")
                 }
