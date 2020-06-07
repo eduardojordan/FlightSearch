@@ -9,29 +9,31 @@
 import UIKit
 import FSCalendar
 
-class CalendarViewController: UIViewController, FSCalendarDelegate {
+protocol SelectDateDelegate: NSObjectProtocol {
+    func selectDate(item: String)
+}
 
+class CalendarViewController: UIViewController, FSCalendarDelegate {
+    
     @IBOutlet var calendar: FSCalendar!
+    
+    var delegateDate: SelectDateDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {
-
-        let formatter = DateFormatter()
-        formatter.dateFormat = "MM-dd-YYYY"
-        let dateString = formatter.string(from: date)
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let controller = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
-        controller.dateSelect = dateString
-            
-        self.present(controller, animated: true, completion: nil)
         
+        let formatter = DateFormatter()
+        formatter.dateFormat = "YYYY-MM-dd"
+        let dateString = formatter.string(from: date)
+        delegateDate?.selectDate(item: dateString)
+        dismiss(animated: true, completion: nil)
         
     }
     
-  
-
-
+    
+    
+    
 }

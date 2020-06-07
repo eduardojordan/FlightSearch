@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController, SelectOriginDelegate, SelectDestinationDelegate {
+class HomeViewController: UIViewController, SelectOriginDelegate, SelectDestinationDelegate, SelectDateDelegate {
     
     
     @IBOutlet var originStationButton: UIButton!
@@ -34,6 +34,13 @@ class HomeViewController: UIViewController, SelectOriginDelegate, SelectDestinat
         }
     }
     
+    var getDateFligh = ""{
+        didSet{
+            self.dateLabel.text = getDateFligh
+            print("XXXXX",getDateFligh)
+        }
+    }
+    
     var dateSelect:String = ""
     
     override func viewDidLoad() {
@@ -46,15 +53,12 @@ class HomeViewController: UIViewController, SelectOriginDelegate, SelectDestinat
         
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        self.dateLabel.text = dateSelect
-    }
-    
     @objc func actionOrigin(){
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "SearchAirportListViewController") as! SearchAirportListViewController
         controller.delegate = self
+        controller.modalPresentationStyle = .fullScreen
         self.present(controller, animated: true, completion: nil)
         
     }
@@ -64,6 +68,7 @@ class HomeViewController: UIViewController, SelectOriginDelegate, SelectDestinat
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "SearchAirportListViewController") as! SearchAirportListViewController
         controller.delegate2 = self
+        controller.modalPresentationStyle = .fullScreen
         self.present(controller, animated: true, completion: nil)
         
     }
@@ -72,6 +77,8 @@ class HomeViewController: UIViewController, SelectOriginDelegate, SelectDestinat
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "CalendarViewController") as! CalendarViewController
+        controller.delegateDate = self
+        controller.modalPresentationStyle = .fullScreen
         self.present(controller, animated: true, completion: nil)
         
     }
@@ -83,6 +90,11 @@ class HomeViewController: UIViewController, SelectOriginDelegate, SelectDestinat
     func selectStationDestination(item: Stations) {
         self.getDestination = item.name.uppercased()
     }
+    
+    func selectDate(item: String) {
+        self.getDateFligh = item
+    }
+    
     
     func radiusButtons(){
         self.destinationStationButton.layer.cornerRadius = 20
