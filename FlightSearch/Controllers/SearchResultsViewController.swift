@@ -36,7 +36,6 @@ class SearchResultsViewController: UIViewController, UITableViewDelegate, UITabl
     
     func callResultSearch(){
         flightSearch.callSearchList(origin: origin, destination: destination, date: date, adults: adults, teen: teen, child: child) { (flightSearch) in
-            print("-------<>>>>",self.origin,self.destination,self.date,self.adults,self.teen,self.child)
             self.flightSearchData = flightSearch as! [[String : String]]
             
             DispatchQueue.main.sync {
@@ -57,7 +56,7 @@ class SearchResultsViewController: UIViewController, UITableViewDelegate, UITabl
         
         cell.dateLabel.text = flightData["dateOut"]
         cell.flyNumberLabel.text =  flightData["flightNumber"]
-        cell.regularFareLabel.text = flightData["priceNumber"] 
+        cell.regularFareLabel.text = flightData["priceNumber"]! + " €"
         
         return cell
     }

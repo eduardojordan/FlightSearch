@@ -46,14 +46,13 @@ class FlightSearchConnections {
                         
                         self.flightSearchData.append(dictionary)
                     }
-                    
                     completion(self.flightSearchData)
                 } catch  {
                     print("Error. \(error)")
                 }
             }else{
                 print("Error in Server \(response.statusCode)  ATENTTION ----> ACTIVATE JSON MOCKUP MODE WHEN API IS OUT OF SERVICE OR DOWN <----")
-                //// RESPONSE OF MOCKUP JSON WHEN API IS OUT SERVICE SERVICE OR DOWN
+                //// RESPONSE OF MOCKUP JSON WHEN API IS OUT SERVICE SERVICE OR DOWN // DONT SEARCH FlIGHTS CONF. ONLY FOR DEVLOP PROGRESS
                 if let json = Bundle.main.path(forResource: "search_response", ofType: "json"), let data =  FileManager.default.contents(atPath: json) {
                     let decoder = JSONDecoder()
                     do {
