@@ -37,6 +37,10 @@ class SearchResultsViewController: UIViewController, UITableViewDelegate, UITabl
     func callResultSearch(){
         flightSearch.callSearchList(origin: origin, destination: destination, date: date, adults: adults, teen: teen, child: child) { (flightSearch) in
             
+            
+    //        print("RECEIVE IN CALL RESULTS",flightSearch)
+            
+  
             self.flightsArray = [flightSearch]
             print(self.flightsArray.count)
 
@@ -45,8 +49,7 @@ class SearchResultsViewController: UIViewController, UITableViewDelegate, UITabl
             }
         }
     }
-  
-    
+        
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return flightsArray.count
     }
