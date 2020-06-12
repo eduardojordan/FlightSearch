@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040A86EE24940BA900A823A1 /* station_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 040A86ED24940BA900A823A1 /* station_response.json */; };
 		040EEEAC248DAE340094EEC5 /* CustomCellResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EEEAB248DAE340094EEC5 /* CustomCellResults.swift */; };
 		047E11CE248F77CD0078C7AB /* search_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 047E11CD248F77CD0078C7AB /* search_response.json */; };
 		04FA8F71248B8011006C6F1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA8F70248B8011006C6F1B /* AppDelegate.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040A86ED24940BA900A823A1 /* station_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = station_response.json; sourceTree = "<group>"; };
 		040EEEAB248DAE340094EEC5 /* CustomCellResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellResults.swift; sourceTree = "<group>"; };
 		047E11CD248F77CD0078C7AB /* search_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search_response.json; sourceTree = "<group>"; };
 		04FA8F6D248B8011006C6F1B /* FlightSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				047E11CD248F77CD0078C7AB /* search_response.json */,
+				040A86ED24940BA900A823A1 /* station_response.json */,
 			);
 			path = MockupJSON;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				047E11CE248F77CD0078C7AB /* search_response.json in Resources */,
 				04FA8F7D248B8015006C6F1B /* LaunchScreen.storyboard in Resources */,
 				04FA8F7A248B8015006C6F1B /* Assets.xcassets in Resources */,
+				040A86EE24940BA900A823A1 /* station_response.json in Resources */,
 				04FA8F89248B8393006C6F1B /* FlightSearch-Logo.png in Resources */,
 				04FA8F78248B8011006C6F1B /* Main.storyboard in Resources */,
 			);

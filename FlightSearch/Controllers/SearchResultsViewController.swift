@@ -9,8 +9,8 @@
 import UIKit
 
 class SearchResultsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-  
-
+    
+    
     @IBOutlet var tableView: UITableView!
     
     var origin = ""
@@ -21,7 +21,7 @@ class SearchResultsViewController: UIViewController, UITableViewDelegate, UITabl
     var child = ""
     
     private let flightSearch = FlightSearchConnections()
-    var flightsArray = [FlightSearch]()
+    var flightSearchData = [[String: String]]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,35 +37,30 @@ class SearchResultsViewController: UIViewController, UITableViewDelegate, UITabl
     func callResultSearch(){
         flightSearch.callSearchList(origin: origin, destination: destination, date: date, adults: adults, teen: teen, child: child) { (flightSearch) in
             
+            self.flightSearchData = flightSearch as! [[String : String]]
             
-    //        print("RECEIVE IN CALL RESULTS",flightSearch)
-            
-  
-            self.flightsArray = [flightSearch]
-            print(self.flightsArray.count)
-
             DispatchQueue.main.sync {
                 self.tableView.reloadData()
             }
         }
     }
-        
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return flightsArray.count
+        return flightSearchData.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-      
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "CustomCell", for: indexPath) as! CustomCellResults
         
-        cell.dateLabel.text = "2021-08-06"//self.flightsArray[indexPath.row].dateOuts
-        cell.flyNumberLabel.text =  "FR 202"//self.flightsArray[indexPath.row].flightNumber as? String
-        cell.regularFareLabel.text = "278.22"//self.flightsArray[indexPath.row].publishedFare
+        let flightData = self.flightSearchData[indexPath.row]
+        
+        cell.dateLabel.text = flightData["dateOut"]
+        cell.flyNumberLabel.text =  flightData["flightNumber"]
+        cell.regularFareLabel.text = flightData["priceNumber"] 
         
         return cell
     }
-
-
+    
+    
 }
-
-

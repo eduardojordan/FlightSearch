@@ -42,7 +42,7 @@ extension Dates {
     enum CodingKeys: String, CodingKey {
         case dateOut, flights
     }
-
+    
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         dateOut = try container.decode(String.self, forKey: .dateOut)
@@ -54,7 +54,7 @@ extension Flights {
     enum FlightsCodingKeys: String, CodingKey {
         case flightNumber, regularFare
     }
-
+    
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: FlightsCodingKeys.self)
         flightNumber = try container.decode(String.self, forKey: .flightNumber)
@@ -66,7 +66,7 @@ extension Fares {
     enum FaresCodingKeys: String, CodingKey {
         case publishedFare
     }
-
+    
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: FaresCodingKeys.self)
         publishedFare = try container.decode(Double.self, forKey: .publishedFare)

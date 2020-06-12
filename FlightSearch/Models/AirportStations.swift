@@ -18,7 +18,7 @@ struct Stations: Decodable {
     let code: String?
     let name: String?
     
- private enum CodingKeys: String, CodingKey {
+    private enum CodingKeys: String, CodingKey {
         case code
         case name
     }

@@ -13,15 +13,11 @@ import UIKit
 class FlightSearchConnections {
     
     private var flightSearch: FlightSearch?
-    private var flightSearchArray = [String]()
+    private var flightSearchData = [[String: String]]()
     
-    func callSearchList(origin:String, destination:String, date:String, adults:String, teen:String, child:String, completion: @escaping(FlightSearch) -> ()){
+    func callSearchList(origin:String, destination:String, date:String, adults:String, teen:String, child:String, completion: @escaping(Any) -> ()){
         
-               let urlFlightSearch2 = "https://sit-nativeapps.ryanair.com/api/v4/Availability?origin=\(origin)&destination=\(destination)&dateout=\(date)&datein=&flexdaysbeforeout=3&flexdaysout=3&flexdaysbeforein=3&flexdaysin=0&adt=\(adults)&teen=\(teen)&chd=\(child)&roundtrip=false&ToUs=AGREED"
-        
-        let urlFlightSearch = "https://sit-nativeapps.ryanair.com/api/v4/Availability?origin=DUB&destination=STN&dateout=2021-08-09&datein=&flexdaysbeforeout=3&flexdaysout=3&flexdaysbeforein=3&flexdaysin=0&adt=1&teen=0&chd=0&roundtrip=false&ToUs=AGREED" // EXAMPLE SEARCH
-        
-    
+        let urlFlightSearch = "https://sit-nativeapps.ryanair.com/api/v4/Availability?origin=\(origin)&destination=\(destination)&dateout=\(date)&datein=&flexdaysbeforeout=3&flexdaysout=3&flexdaysbeforein=3&flexdaysin=0&adt=\(adults)&teen=\(teen)&chd=\(child)&roundtrip=false&ToUs=AGREED"
         
         let session = URLSession.shared
         let urlStr = urlFlightSearch.addingPercentEncoding(withAllowedCharacters: .urlFragmentAllowed)
@@ -35,31 +31,25 @@ class FlightSearchConnections {
             }
             if response.statusCode == 200{
                 do {
-                let jsonDecoder = JSONDecoder()
-                let dataResponse = try jsonDecoder.decode(FlightSearch.self, from: data)
-                    let dateOut = dataResponse.trips[0].dates![0].dateOut!
+                    let jsonDecoder = JSONDecoder()
+                    let dataResponse = try jsonDecoder.decode(FlightSearch.self, from: data)
+                    let dateOut = dataResponse.trips[0].dates![0].dateOut!.prefix(10)
                     let flyNumber = dataResponse.trips[0].dates![0].flights![0].flightNumber!
                     let priceNumber = dataResponse.trips[0].dates![0].flights![0].regularFare?.fares![0].publishedFare!
-                 
                     
-                    for item in dateOut {
-                       print("******>",flyNumber)
-                      // por cada fechas agregar numero de vuelo y precio a un array
+
+                    
+                    for i in 0..<dateOut.count{
                         
-                       
-                        for item in flyNumber {
-                            //print("******>",flyNumber)
-                            self.flightSearchArray.append(dateOut)
-                            self.flightSearchArray.append(flyNumber)
-                         //   self.flightSearchArray.append(priceNumber as! String)
-                            
-                                      }
+                        var dictionary = [String:String]()
+                        dictionary.updateValue(String(dateOut), forKey: "dateOut")
+                        dictionary.updateValue(flyNumber, forKey: "flightNumber")
+                        dictionary.updateValue("\(priceNumber!)", forKey: "priceNumber")
+                        
+                        self.flightSearchData.append(dictionary)
                     }
-                    print(">>>>>>>>",self.flightSearchArray.count)
-                    print(">>>>>>>>",self.flightSearchArray)
-                    //print(">>>>>>>>",dateOut,flyNumber,priceNUmber)
                     
-                  completion(dataResponse)
+                    completion(self.flightSearchData)
                 } catch  {
                     print("Error. \(error)")
                 }
@@ -69,8 +59,23 @@ class FlightSearchConnections {
                 if let json = Bundle.main.path(forResource: "search_response", ofType: "json"), let data =  FileManager.default.contents(atPath: json) {
                     let decoder = JSONDecoder()
                     do {
-                        let dataResponse = try decoder.decode(FlightSearch.self, from: data)
-                       completion(dataResponse)
+                        let jsonDecoder = JSONDecoder()
+                        let dataResponse = try jsonDecoder.decode(FlightSearch.self, from: data)
+                        let dateOut = dataResponse.trips[0].dates![0].dateOut!.prefix(10)
+                        let flyNumber = dataResponse.trips[0].dates![0].flights![0].flightNumber!
+                        let priceNumber = dataResponse.trips[0].dates![0].flights![0].regularFare?.fares![0].publishedFare!
+                        
+                        for i in 0..<dateOut.count{
+                            
+                            var dictionary = [String:String]()
+                            dictionary.updateValue(String(dateOut), forKey: "dateOut")
+                            dictionary.updateValue(flyNumber, forKey: "flightNumber")
+                            dictionary.updateValue("\(priceNumber!)", forKey: "priceNumber")
+                            
+                            self.flightSearchData.append(dictionary)
+                            
+                        }
+                        completion(self.flightSearchData)
                     } catch {
                         print("Error: \(error)")
                     }
@@ -79,11 +84,4 @@ class FlightSearchConnections {
         }.resume()
     }
 }
-extension String {
-    func convertToDictionary() -> [String: Any]? {
-        if let data = data(using: .utf8) {
-            return try? JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]
-        }
-        return nil
-    }
-}
+
