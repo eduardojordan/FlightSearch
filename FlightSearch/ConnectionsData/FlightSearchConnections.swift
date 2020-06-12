@@ -36,9 +36,7 @@ class FlightSearchConnections {
                     let dateOut = dataResponse.trips[0].dates![0].dateOut!.prefix(10)
                     let flyNumber = dataResponse.trips[0].dates![0].flights![0].flightNumber!
                     let priceNumber = dataResponse.trips[0].dates![0].flights![0].regularFare?.fares![0].publishedFare!
-                    
-
-                    
+                
                     for i in 0..<dateOut.count{
                         
                         var dictionary = [String:String]()
