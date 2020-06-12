@@ -100,7 +100,7 @@ extension SearchAirportListViewController: UISearchBarDelegate {
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         
-        self.searchStation = self.stationArray.filter({$0.name.lowercased().prefix(searchText.count) == searchText.lowercased() || $0.code.lowercased().prefix(searchText.count) == searchText.lowercased()})
+        self.searchStation = self.stationArray.filter({$0.name!.lowercased().prefix(searchText.count) == searchText.lowercased() || $0.code!.lowercased().prefix(searchText.count) == searchText.lowercased()})
         
         self.searching = true
         self.tableView.reloadData()

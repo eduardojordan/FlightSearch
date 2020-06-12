@@ -8,17 +8,17 @@
 
 import Foundation
 
-struct AirportStations : Codable {
+struct AirportStations : Decodable {
     
     let stations : [Stations]
 }
 
-struct Stations: Codable {
+struct Stations: Decodable {
     
-    let code: String
-    let name: String
+    let code: String?
+    let name: String?
     
-    enum CodingKeys: String, CodingKey {
+ private enum CodingKeys: String, CodingKey {
         case code
         case name
     }

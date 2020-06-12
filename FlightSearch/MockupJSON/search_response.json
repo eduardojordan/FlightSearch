@@ -1,0 +1,2656 @@
+
+{
+  "termsOfUse": "https://www.ryanair.com/ie/en/corporate/terms-of-use=AGREED",
+  "currency": "EUR",
+  "currPrecision": 2,
+  "routeGroup": "UKP",
+  "tripType": "OTHER",
+  "upgradeType": "PLUS",
+  "trips": [
+    {
+      "origin": "DUB",
+      "originName": "Dublin ",
+      "destination": "STN",
+      "destinationName": "London (Stansted)",
+      "routeGroup": "UKP",
+      "tripType": "OTHER",
+      "upgradeType": "PLUS",
+      "dates": [
+        {
+          "dateOut": "2021-08-06T00:00:00.000",
+          "flights": [
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 202~ ~~DUB~08/06/2021 06:25~STN~08/06/2021 07:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6YHAVYP55GA4FQ7UUVGCYKLC244PG4OKUG4ZMHCYDUYA6BPU6X526UD6XQMDO6GGM2D3SSGAMH5WWY35LPD2YZPXVCKRMJ57TO5XS4LGDB7UA62ZY6BJN6WVYC7MEWGFJQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 202",
+                  "time": [
+                    "2021-08-06T06:25:00.000",
+                    "2021-08-06T07:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-06T05:25:00.000Z",
+                    "2021-08-06T06:50:00.000Z"
+                  ],
+                  "duration": "01:25"
+                }
+              ],
+              "flightNumber": "FR 202",
+              "time": [
+                "2021-08-06T06:25:00.000",
+                "2021-08-06T07:50:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-06T05:25:00.000Z",
+                "2021-08-06T06:50:00.000Z"
+              ],
+              "duration": "01:25"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 206~ ~~DUB~08/06/2021 08:20~STN~08/06/2021 09:40~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6XXYFAQZG3NWJH4UZRGYTFZB7RVRKDTOBNS6RL72DY4R7LG5IZ53OA5EXXWPLEAS565O64735S773F7UFKLA62NN565EJ3MCHVSNJDB4EIETBF4SU7QN5HNAUGW3WGYJXQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 206",
+                  "time": [
+                    "2021-08-06T08:20:00.000",
+                    "2021-08-06T09:40:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-06T07:20:00.000Z",
+                    "2021-08-06T08:40:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 206",
+              "time": [
+                "2021-08-06T08:20:00.000",
+                "2021-08-06T09:40:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-06T07:20:00.000Z",
+                "2021-08-06T08:40:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~2272~ ~~DUB~08/06/2021 11:55~STN~08/06/2021 13:15~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6VHN42FFGEPOBXNARKJGLUZ5ODKDKEDVHCU2N4SBNOMGNRBWF46MWYAFEMVL2XAURJ7CGCUZRKIEDNROOKP4WVUWG5QJFIEP7FTCKRVYS3X7IPJW3G26VECS7JR6OXSVBQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 2272",
+                  "time": [
+                    "2021-08-06T11:55:00.000",
+                    "2021-08-06T13:15:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-06T10:55:00.000Z",
+                    "2021-08-06T12:15:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 2272",
+              "time": [
+                "2021-08-06T11:55:00.000",
+                "2021-08-06T13:15:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-06T10:55:00.000Z",
+                "2021-08-06T12:15:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 294~ ~~DUB~08/06/2021 15:30~STN~08/06/2021 16:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6ZFSB7DJ6XB6S4QFI4UWSFFH77WCKT2BGWABITLEDDIDT67LFNH4AFQEU43C62NFEP3QYFQQSBUO2EXD7O75DEZQV5R2JVKWBBJVN6Z4PR3N74IK5OHQDWD4KYMVUU7LSA",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 294",
+                  "time": [
+                    "2021-08-06T15:30:00.000",
+                    "2021-08-06T16:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-06T14:30:00.000Z",
+                    "2021-08-06T15:50:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 294",
+              "time": [
+                "2021-08-06T15:30:00.000",
+                "2021-08-06T16:50:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-06T14:30:00.000Z",
+                "2021-08-06T15:50:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 211~ ~~DUB~08/06/2021 16:30~STN~08/06/2021 17:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6X2CAC4XAINI7CBOWQYMY2QGKPEMRRZPFUG7GOGL2PNCCY52AA3VJTYQLSY2USCFQ5PIQFP4DDF6TUKL4WZHR3ECZFKQG4ILVEIHFKU5AKDVDQQN7PF4CKWDFG4BAFFJQA",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 211",
+                  "time": [
+                    "2021-08-06T16:30:00.000",
+                    "2021-08-06T17:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-06T15:30:00.000Z",
+                    "2021-08-06T16:50:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 211",
+              "time": [
+                "2021-08-06T16:30:00.000",
+                "2021-08-06T17:50:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-06T15:30:00.000Z",
+                "2021-08-06T16:50:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 288~ ~~DUB~08/06/2021 18:55~STN~08/06/2021 20:15~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6RQYWH7UF4NXWFAFGXJU7FJFTJQDZLRRSXVMO4APH5GJT6QH3LEZVHRXW2TYBMAZWZ3664U4MCFROJQWXTXQOB77AVVDKSL4V4XZVIQR7KIGZYA7JECTMFDQMRR3ZQMCNA",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 288",
+                  "time": [
+                    "2021-08-06T18:55:00.000",
+                    "2021-08-06T20:15:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-06T17:55:00.000Z",
+                    "2021-08-06T19:15:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 288",
+              "time": [
+                "2021-08-06T18:55:00.000",
+                "2021-08-06T20:15:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-06T17:55:00.000Z",
+                "2021-08-06T19:15:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 272~ ~~DUB~08/06/2021 20:20~STN~08/06/2021 21:40~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6YY4IDFZKVDM7TTICTPX7U7TUHKTDWFQZ6E36PIPZHHAB2CDREXE46EPHB3WZH46T36LQGJHWZDLR4W6N5TUAMMRSSWJXOGFN4TSZWJOZ3CYRICVAFAZDAJMWQEBFFRX2A",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 272",
+                  "time": [
+                    "2021-08-06T20:20:00.000",
+                    "2021-08-06T21:40:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-06T19:20:00.000Z",
+                    "2021-08-06T20:40:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 272",
+              "time": [
+                "2021-08-06T20:20:00.000",
+                "2021-08-06T21:40:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-06T19:20:00.000Z",
+                "2021-08-06T20:40:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 298~ ~~DUB~08/06/2021 21:55~STN~08/06/2021 23:15~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6QT6QBIKVUREPIW2VHICKKO3C4KVIHIKHWPCZGE3LUT4ZGD6OJB6WVE3J42HCXVSOYQDQVEX7UJW6HTZZPDBDV3NPG4DWHYCT2DHI6X7KZCHBFS3DWNFHWSZ32BA33B63A",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 298",
+                  "time": [
+                    "2021-08-06T21:55:00.000",
+                    "2021-08-06T23:15:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-06T20:55:00.000Z",
+                    "2021-08-06T22:15:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 298",
+              "time": [
+                "2021-08-06T21:55:00.000",
+                "2021-08-06T23:15:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-06T20:55:00.000Z",
+                "2021-08-06T22:15:00.000Z"
+              ],
+              "duration": "01:20"
+            }
+          ]
+        },
+        {
+          "dateOut": "2021-08-07T00:00:00.000",
+          "flights": [
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 202~ ~~DUB~08/07/2021 06:25~STN~08/07/2021 07:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6YHAVYP55GA4FQ7UUVGCYKLC245OP5KJNWF6WQPNFRRDEU7HWBT4QRHSMR4W5YLQ5NM4YNJP4KWPONGIF5EJ22YXI52DXNO4XHD7XV2WIDCZF5P5WPEDONI2FVP5TZG3TQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 202",
+                  "time": [
+                    "2021-08-07T06:25:00.000",
+                    "2021-08-07T07:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-07T05:25:00.000Z",
+                    "2021-08-07T06:50:00.000Z"
+                  ],
+                  "duration": "01:25"
+                }
+              ],
+              "flightNumber": "FR 202",
+              "time": [
+                "2021-08-07T06:25:00.000",
+                "2021-08-07T07:50:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-07T05:25:00.000Z",
+                "2021-08-07T06:50:00.000Z"
+              ],
+              "duration": "01:25"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 206~ ~~DUB~08/07/2021 08:20~STN~08/07/2021 09:40~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6XXYFAQZG3NWJH4UZRGYTFZB7RV6FSNWXQBMKLO2SYHM6FVHVG65IMRN65NFRULZOCACDNDUU3OKUXOC5B6RRLG756AEXZJL6NEFHP6MFLJWJNQJ7TGBV7HQMRVAUMWIRQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 206",
+                  "time": [
+                    "2021-08-07T08:20:00.000",
+                    "2021-08-07T09:40:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-07T07:20:00.000Z",
+                    "2021-08-07T08:40:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 206",
+              "time": [
+                "2021-08-07T08:20:00.000",
+                "2021-08-07T09:40:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-07T07:20:00.000Z",
+                "2021-08-07T08:40:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~2272~ ~~DUB~08/07/2021 11:55~STN~08/07/2021 13:15~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6VHN42FFGEPOBXNARKJGLUZ5ODK76QTIMEQVJ2LKIOZ3ARN6UZVPD7YIDXTRRJY6HOHZUGQWBHS3W34SK6OQZVFVZENT3ZWEO67YHE3PUEX7HDTDIOYRHZLLUIYIDDURLA",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 2272",
+                  "time": [
+                    "2021-08-07T11:55:00.000",
+                    "2021-08-07T13:15:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-07T10:55:00.000Z",
+                    "2021-08-07T12:15:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 2272",
+              "time": [
+                "2021-08-07T11:55:00.000",
+                "2021-08-07T13:15:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-07T10:55:00.000Z",
+                "2021-08-07T12:15:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 294~ ~~DUB~08/07/2021 13:55~STN~08/07/2021 15:15~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6ZFSB7DJ6XB6S4QFI4UWSFFH77WXSPF3VXZGCX7QUAMJRN2WCWQCHUM5XXTDHMVGYSX4UPSQ6Y7IWIEXWDGUO3MWAVIIDUF2WURE4LWVGPLYV37BY3EB7NFOWXTG7JAXWQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 294",
+                  "time": [
+                    "2021-08-07T13:55:00.000",
+                    "2021-08-07T15:15:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-07T12:55:00.000Z",
+                    "2021-08-07T14:15:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 294",
+              "time": [
+                "2021-08-07T13:55:00.000",
+                "2021-08-07T15:15:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-07T12:55:00.000Z",
+                "2021-08-07T14:15:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 211~ ~~DUB~08/07/2021 15:40~STN~08/07/2021 17:00~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6X2CAC4XAINI7CBOWQYMY2QGKPE66ARFMEOQFOQ4MQLKYKE772QDJTL5V5SN2JOCI73IH4UELFWV6OW4IJXA5IYHEOY37OR5OWQJYXIP6Y47ZA74YDCBTZXSC7FKNWDSOQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 211",
+                  "time": [
+                    "2021-08-07T15:40:00.000",
+                    "2021-08-07T17:00:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-07T14:40:00.000Z",
+                    "2021-08-07T16:00:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 211",
+              "time": [
+                "2021-08-07T15:40:00.000",
+                "2021-08-07T17:00:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-07T14:40:00.000Z",
+                "2021-08-07T16:00:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 288~ ~~DUB~08/07/2021 17:15~STN~08/07/2021 18:35~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6RQYWH7UF4NXWFAFGXJU7FJFTJRETYUGHATNV3X2I64SWCCMXI3BTVQGQNDY62PP4AUQQK3TFGNVPE7AO2XYJFPXCIR5JC6UWTJVHKT3NLSY3RNVXYRR52MBSHSAVYYAJQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 288",
+                  "time": [
+                    "2021-08-07T17:15:00.000",
+                    "2021-08-07T18:35:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-07T16:15:00.000Z",
+                    "2021-08-07T17:35:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 288",
+              "time": [
+                "2021-08-07T17:15:00.000",
+                "2021-08-07T18:35:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-07T16:15:00.000Z",
+                "2021-08-07T17:35:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 272~ ~~DUB~08/07/2021 20:20~STN~08/07/2021 21:40~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6YY4IDFZKVDM7TTICTPX7U7TUHK7FR6AZ46KASBFJCNTOEC23MUFIHELOJZ4S6K6LJNXKRMS7JO776DGDPRQWOPXDQWZPOKNM5F3B2RNGICHKBENOLZQH3MLB6VASBYI7A",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 272",
+                  "time": [
+                    "2021-08-07T20:20:00.000",
+                    "2021-08-07T21:40:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-07T19:20:00.000Z",
+                    "2021-08-07T20:40:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 272",
+              "time": [
+                "2021-08-07T20:20:00.000",
+                "2021-08-07T21:40:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-07T19:20:00.000Z",
+                "2021-08-07T20:40:00.000Z"
+              ],
+              "duration": "01:20"
+            }
+          ]
+        },
+        {
+          "dateOut": "2021-08-08T00:00:00.000",
+          "flights": [
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 202~ ~~DUB~08/08/2021 06:25~STN~08/08/2021 07:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6YHAVYP55GA4FQ7UUVGCYKLC245DBQRSLL7TL2R6E5SUKZMSJGX3V3WSI7EHXATIND3VN4XMQCXKE6TO7XBLEAOYQ5FUGMJHOQHALMA5JGV3WC5VL6SVNQTZHGDPD3WHKQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 202",
+                  "time": [
+                    "2021-08-08T06:25:00.000",
+                    "2021-08-08T07:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-08T05:25:00.000Z",
+                    "2021-08-08T06:50:00.000Z"
+                  ],
+                  "duration": "01:25"
+                }
+              ],
+              "flightNumber": "FR 202",
+              "time": [
+                "2021-08-08T06:25:00.000",
+                "2021-08-08T07:50:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-08T05:25:00.000Z",
+                "2021-08-08T06:50:00.000Z"
+              ],
+              "duration": "01:25"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~2272~ ~~DUB~08/08/2021 11:50~STN~08/08/2021 13:10~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6VHN42FFGEPOBXNARKJGLUZ5ODLPXOHIGPWIKE63WWCP3YKA5TUUEMZOJ5HQ7ITB5Y7F52DKTWQAO4ZXSMBHOELQDUSMXQECYX7JLNPRYQECC25AWI4P7TTVYZDANGK42A",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 2272",
+                  "time": [
+                    "2021-08-08T11:50:00.000",
+                    "2021-08-08T13:10:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-08T10:50:00.000Z",
+                    "2021-08-08T12:10:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 2272",
+              "time": [
+                "2021-08-08T11:50:00.000",
+                "2021-08-08T13:10:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-08T10:50:00.000Z",
+                "2021-08-08T12:10:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 294~ ~~DUB~08/08/2021 15:30~STN~08/08/2021 16:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6ZFSB7DJ6XB6S4QFI4UWSFFH77XSR57F3233XUAGDZVOBO4N3FE2Q4BDHXVVEFMUDJOYTFAWFQ7WILTOUN547UXZEVRNBM6MYIRWYGFLXRMIGHIIL2IZXAOKTKRAXAUNCQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 294",
+                  "time": [
+                    "2021-08-08T15:30:00.000",
+                    "2021-08-08T16:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-08T14:30:00.000Z",
+                    "2021-08-08T15:50:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 294",
+              "time": [
+                "2021-08-08T15:30:00.000",
+                "2021-08-08T16:50:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-08T14:30:00.000Z",
+                "2021-08-08T15:50:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 211~ ~~DUB~08/08/2021 16:30~STN~08/08/2021 17:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6X2CAC4XAINI7CBOWQYMY2QGKPEBP2XBBVELHM6Y7D4O5YLHZLXJEOBBRG6C5KTTNSWL5J27GV2JI2XEEKF3PFF6PWARWK3S62TEPTRSMOODO2PHWOMENT7TRVKVX257KQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 211",
+                  "time": [
+                    "2021-08-08T16:30:00.000",
+                    "2021-08-08T17:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-08T15:30:00.000Z",
+                    "2021-08-08T16:50:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 211",
+              "time": [
+                "2021-08-08T16:30:00.000",
+                "2021-08-08T17:50:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-08T15:30:00.000Z",
+                "2021-08-08T16:50:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 288~ ~~DUB~08/08/2021 18:55~STN~08/08/2021 20:15~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6RQYWH7UF4NXWFAFGXJU7FJFTJRKE4CLKQDWJAHPYRA2VXEUXK5WZZ3R7IGZJBWY34KLGQWPOCLDARKD626EOC22E4AJYWMFBBDKIRFPPXGMGVUFWSGZNUACJLC5V2VVQA",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 288",
+                  "time": [
+                    "2021-08-08T18:55:00.000",
+                    "2021-08-08T20:15:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-08T17:55:00.000Z",
+                    "2021-08-08T19:15:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 288",
+              "time": [
+                "2021-08-08T18:55:00.000",
+                "2021-08-08T20:15:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-08T17:55:00.000Z",
+                "2021-08-08T19:15:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 272~ ~~DUB~08/08/2021 20:20~STN~08/08/2021 21:40~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6YY4IDFZKVDM7TTICTPX7U7TUHKMSXXWEE64KV6QXOJNR3QFGBABTEAWGRGW5PM5T474KEHE2TK7QX3QMTEYSCHXT5ZWKGNA5OSSPHQHNEORZDH7ZLSLW4LVS43ERM7ABQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 272",
+                  "time": [
+                    "2021-08-08T20:20:00.000",
+                    "2021-08-08T21:40:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-08T19:20:00.000Z",
+                    "2021-08-08T20:40:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 272",
+              "time": [
+                "2021-08-08T20:20:00.000",
+                "2021-08-08T21:40:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-08T19:20:00.000Z",
+                "2021-08-08T20:40:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 298~ ~~DUB~08/08/2021 21:55~STN~08/08/2021 23:15~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6QT6QBIKVUREPIW2VHICKKO3C4KGHRZ3BQ3LRG2EMX5N67MVL7PRLNE5SCB67AA66GNF24RXJQIMSB7DODIJS3GOT56VAA3Q63JMK5DTPHI2BY74LR4YMDI3CUZAA73I7A",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 298",
+                  "time": [
+                    "2021-08-08T21:55:00.000",
+                    "2021-08-08T23:15:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-08T20:55:00.000Z",
+                    "2021-08-08T22:15:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 298",
+              "time": [
+                "2021-08-08T21:55:00.000",
+                "2021-08-08T23:15:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-08T20:55:00.000Z",
+                "2021-08-08T22:15:00.000Z"
+              ],
+              "duration": "01:20"
+            }
+          ]
+        },
+        {
+          "dateOut": "2021-08-09T00:00:00.000",
+          "flights": [
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 202~ ~~DUB~08/09/2021 06:25~STN~08/09/2021 07:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6YHAVYP55GA4FQ7UUVGCYKLC245JQ2ZUBTRY7KGDSNVTZQC5S5G7ON7O4UTVCCYBMNBJCWZ4AO52VRFX55LBZRQNJCHIVP3E6QVFGMQSUNEBQXZBNLVGMAKPMLCFG4XERQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 202",
+                  "time": [
+                    "2021-08-09T06:25:00.000",
+                    "2021-08-09T07:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-09T05:25:00.000Z",
+                    "2021-08-09T06:50:00.000Z"
+                  ],
+                  "duration": "01:25"
+                }
+              ],
+              "flightNumber": "FR 202",
+              "time": [
+                "2021-08-09T06:25:00.000",
+                "2021-08-09T07:50:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-09T05:25:00.000Z",
+                "2021-08-09T06:50:00.000Z"
+              ],
+              "duration": "01:25"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 206~ ~~DUB~08/09/2021 08:20~STN~08/09/2021 09:40~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6XXYFAQZG3NWJH4UZRGYTFZB7RUTQJU3QK5JRTCXY2J5FNPNNTFXBRPTUNGJPIQG3TCDG522H4AMGWW6IFKT4SKJ2OWZFFQY3M2PZTWJ5MJMSGYS74MMCEELWBKCWWLPXA",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 206",
+                  "time": [
+                    "2021-08-09T08:20:00.000",
+                    "2021-08-09T09:40:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-09T07:20:00.000Z",
+                    "2021-08-09T08:40:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 206",
+              "time": [
+                "2021-08-09T08:20:00.000",
+                "2021-08-09T09:40:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-09T07:20:00.000Z",
+                "2021-08-09T08:40:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~2272~ ~~DUB~08/09/2021 11:55~STN~08/09/2021 13:15~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6VHN42FFGEPOBXNARKJGLUZ5ODLPJESRNRZLF54RCVW6NVLWX273NI6BCVUL4CZJY2WWEDTV4BO7I3S5CXGREM6MBGISAYBIOFH2AXPNAT2ZFF5ROCNYLNTV7XICBO7ELA",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 2272",
+                  "time": [
+                    "2021-08-09T11:55:00.000",
+                    "2021-08-09T13:15:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-09T10:55:00.000Z",
+                    "2021-08-09T12:15:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 2272",
+              "time": [
+                "2021-08-09T11:55:00.000",
+                "2021-08-09T13:15:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-09T10:55:00.000Z",
+                "2021-08-09T12:15:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 294~ ~~DUB~08/09/2021 15:30~STN~08/09/2021 16:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6ZFSB7DJ6XB6S4QFI4UWSFFH77WJU37TSFRUTVMKDJXR7NABENJF2T5WPCJWIRAU75WKPKLH54N5WLH6HEI3KKP4NJBIPG2CLYQSUA7VDML5UQLOTFXBKOFM63FWPBGDFQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 294",
+                  "time": [
+                    "2021-08-09T15:30:00.000",
+                    "2021-08-09T16:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-09T14:30:00.000Z",
+                    "2021-08-09T15:50:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 294",
+              "time": [
+                "2021-08-09T15:30:00.000",
+                "2021-08-09T16:50:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-09T14:30:00.000Z",
+                "2021-08-09T15:50:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 211~ ~~DUB~08/09/2021 16:30~STN~08/09/2021 17:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6X2CAC4XAINI7CBOWQYMY2QGKPFRVFBYW4JN6HMJ4ITB6N3GNSHCZCTVHTBEPEBZFCZ7BUM4SRW4CMEL2YXGWZ33ALRNOBCVCGJ3LCB3NV32S25C2NQNFA65K5QPZ3UDBA",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 211",
+                  "time": [
+                    "2021-08-09T16:30:00.000",
+                    "2021-08-09T17:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-09T15:30:00.000Z",
+                    "2021-08-09T16:50:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 211",
+              "time": [
+                "2021-08-09T16:30:00.000",
+                "2021-08-09T17:50:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-09T15:30:00.000Z",
+                "2021-08-09T16:50:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 288~ ~~DUB~08/09/2021 18:55~STN~08/09/2021 20:15~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6RQYWH7UF4NXWFAFGXJU7FJFTJRKC6OCW7ONVW4SKL4FOPS57TIISM5U62OMY2RBEWBELMWN3THYLR4H5FKSLLMYSMXIF3RT4YHH7WIB25MR7Z2MXI6UWD44GMGSDYC7DQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 288",
+                  "time": [
+                    "2021-08-09T18:55:00.000",
+                    "2021-08-09T20:15:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-09T17:55:00.000Z",
+                    "2021-08-09T19:15:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 288",
+              "time": [
+                "2021-08-09T18:55:00.000",
+                "2021-08-09T20:15:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-09T17:55:00.000Z",
+                "2021-08-09T19:15:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 272~ ~~DUB~08/09/2021 20:20~STN~08/09/2021 21:40~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6YY4IDFZKVDM7TTICTPX7U7TUHKU3FFJLTHAEN3LRZZ6BTGONOCFEQSYRCHB7WP42YYNTUGGQU2R5KZSLHW2LRHZ5FBEUWYQDXZQMTV4XKK4VRVKEO6M65TDI4NQ5E6J3Q",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 272",
+                  "time": [
+                    "2021-08-09T20:20:00.000",
+                    "2021-08-09T21:40:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-09T19:20:00.000Z",
+                    "2021-08-09T20:40:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 272",
+              "time": [
+                "2021-08-09T20:20:00.000",
+                "2021-08-09T21:40:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-09T19:20:00.000Z",
+                "2021-08-09T20:40:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 298~ ~~DUB~08/09/2021 21:55~STN~08/09/2021 23:15~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6QT6QBIKVUREPIW2VHICKKO3C4L543P6JKBGQ3WAGGIJCBHMHU5FPJZN7I7QYWYDTQ5AQZZVPVGZSFOOT2EQ55UP2LRDWY2YHNX4QEWC6V2ET2Y7J7J6HIZWRPGUHCBJIQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 298",
+                  "time": [
+                    "2021-08-09T21:55:00.000",
+                    "2021-08-09T23:15:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-09T20:55:00.000Z",
+                    "2021-08-09T22:15:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 298",
+              "time": [
+                "2021-08-09T21:55:00.000",
+                "2021-08-09T23:15:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-09T20:55:00.000Z",
+                "2021-08-09T22:15:00.000Z"
+              ],
+              "duration": "01:20"
+            }
+          ]
+        },
+        {
+          "dateOut": "2021-08-10T00:00:00.000",
+          "flights": [
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 202~ ~~DUB~08/10/2021 06:25~STN~08/10/2021 07:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6YHAVYP55GA4FQ7UUVGCYKLC244KI2QPZ5HMLWASIIFOCYMUJPOGGW4LC4OEI4NM2FHYAQL2Y3MOTNTHFHXDVMLIBPJF4PTUVG27KRIXWHLSJ646FN7YNU43U7MHHOT5CA",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 202",
+                  "time": [
+                    "2021-08-10T06:25:00.000",
+                    "2021-08-10T07:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-10T05:25:00.000Z",
+                    "2021-08-10T06:50:00.000Z"
+                  ],
+                  "duration": "01:25"
+                }
+              ],
+              "flightNumber": "FR 202",
+              "time": [
+                "2021-08-10T06:25:00.000",
+                "2021-08-10T07:50:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-10T05:25:00.000Z",
+                "2021-08-10T06:50:00.000Z"
+              ],
+              "duration": "01:25"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 206~ ~~DUB~08/10/2021 08:15~STN~08/10/2021 09:35~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6XXYFAQZG3NWJH4UZRGYTFZB7RU33LA5YSIAPLAN4WZNRZZHW6VO3TT5JJ2OFZIVXYOAIJ3YY5QC2LLA5VXGUBJPST7NXURLPQM3DXMMCZZ6Q2XTGS3SHH6ECIQREJSC3A",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 206",
+                  "time": [
+                    "2021-08-10T08:15:00.000",
+                    "2021-08-10T09:35:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-10T07:15:00.000Z",
+                    "2021-08-10T08:35:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 206",
+              "time": [
+                "2021-08-10T08:15:00.000",
+                "2021-08-10T09:35:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-10T07:15:00.000Z",
+                "2021-08-10T08:35:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 294~ ~~DUB~08/10/2021 15:30~STN~08/10/2021 16:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6ZFSB7DJ6XB6S4QFI4UWSFFH77WL4EXXC7XHRWACDS5RVMZN6VXQPIJE3LYEAMXIVXONNYIWHJRJQUIUGRYSNZVARYACUIEX4CPHCEF67S6Z4YEE2BG4IQ3XBGVR2UMFJA",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 294",
+                  "time": [
+                    "2021-08-10T15:30:00.000",
+                    "2021-08-10T16:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-10T14:30:00.000Z",
+                    "2021-08-10T15:50:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 294",
+              "time": [
+                "2021-08-10T15:30:00.000",
+                "2021-08-10T16:50:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-10T14:30:00.000Z",
+                "2021-08-10T15:50:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 211~ ~~DUB~08/10/2021 16:30~STN~08/10/2021 17:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6X2CAC4XAINI7CBOWQYMY2QGKPEKFAGMHK3VD4AKTI5KJU34T7RQGGVQHUMJQUJQPMLSJMQDI75LQGDOP3UEZIWW2DEEPS5LXCN5TSLN5TFBM45YJNIWKM3NYC7ZVJ5TVA",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 211",
+                  "time": [
+                    "2021-08-10T16:30:00.000",
+                    "2021-08-10T17:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-10T15:30:00.000Z",
+                    "2021-08-10T16:50:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 211",
+              "time": [
+                "2021-08-10T16:30:00.000",
+                "2021-08-10T17:50:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-10T15:30:00.000Z",
+                "2021-08-10T16:50:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 288~ ~~DUB~08/10/2021 18:55~STN~08/10/2021 20:15~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6RQYWH7UF4NXWFAFGXJU7FJFTJQYVCJUGULIYBNQYF2ALKOTSW2RDS2UC75HS5KO6QKFEFWRLJGGOKCHZEJH5GNNQOCA3AX7ZL3LIOFUYZGCEUZCKMHZ3COAW4RN4DBMJA",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 288",
+                  "time": [
+                    "2021-08-10T18:55:00.000",
+                    "2021-08-10T20:15:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-10T17:55:00.000Z",
+                    "2021-08-10T19:15:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 288",
+              "time": [
+                "2021-08-10T18:55:00.000",
+                "2021-08-10T20:15:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-10T17:55:00.000Z",
+                "2021-08-10T19:15:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 272~ ~~DUB~08/10/2021 20:20~STN~08/10/2021 21:40~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6YY4IDFZKVDM7TTICTPX7U7TUHLXWTE2UVTOER5RCFFGNYTGJAFWWEONH3RJP2WGPCSUO4TX7TICQO7243RZHFFGGAVIHTMCJIMXRXJDHUYIRZ7Z5HPZ2SP3QTGXD5BRJA",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 272",
+                  "time": [
+                    "2021-08-10T20:20:00.000",
+                    "2021-08-10T21:40:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-10T19:20:00.000Z",
+                    "2021-08-10T20:40:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 272",
+              "time": [
+                "2021-08-10T20:20:00.000",
+                "2021-08-10T21:40:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-10T19:20:00.000Z",
+                "2021-08-10T20:40:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 298~ ~~DUB~08/10/2021 21:55~STN~08/10/2021 23:15~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6QT6QBIKVUREPIW2VHICKKO3C4L5GKDEO5GEVUPWFE5XKFA72G6I2LII4H7TGH5ACT323EMNRAO5XGHJQBIAGTDFDIBI5SAVFXVXTCVZ7UVZ6GB7VFSUKMVPMYH5RDRB6Q",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 298",
+                  "time": [
+                    "2021-08-10T21:55:00.000",
+                    "2021-08-10T23:15:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-10T20:55:00.000Z",
+                    "2021-08-10T22:15:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 298",
+              "time": [
+                "2021-08-10T21:55:00.000",
+                "2021-08-10T23:15:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-10T20:55:00.000Z",
+                "2021-08-10T22:15:00.000Z"
+              ],
+              "duration": "01:20"
+            }
+          ]
+        },
+        {
+          "dateOut": "2021-08-11T00:00:00.000",
+          "flights": [
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 202~ ~~DUB~08/11/2021 06:25~STN~08/11/2021 07:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6YHAVYP55GA4FQ7UUVGCYKLC2447ZONZLVSIEG4C4HXAD5XLSBPLOUSVRARGSKGWYA2BBRFYRVYLZCYZ7W64LJHUNDMNNCB24RJK6FTNE454TAFNHSE6L3EE44G7GTGDAQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 202",
+                  "time": [
+                    "2021-08-11T06:25:00.000",
+                    "2021-08-11T07:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-11T05:25:00.000Z",
+                    "2021-08-11T06:50:00.000Z"
+                  ],
+                  "duration": "01:25"
+                }
+              ],
+              "flightNumber": "FR 202",
+              "time": [
+                "2021-08-11T06:25:00.000",
+                "2021-08-11T07:50:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-11T05:25:00.000Z",
+                "2021-08-11T06:50:00.000Z"
+              ],
+              "duration": "01:25"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 206~ ~~DUB~08/11/2021 08:20~STN~08/11/2021 09:40~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6XXYFAQZG3NWJH4UZRGYTFZB7RVHRFMUJAGEVA7CKBMW6F4RGQXTKWTDOEGUT7PXM7ROTUH72JATP7HYJULOVBZWC7SXS4AFNIAKOGUNGKDU2BTDD6Y2IJXXRZUSKQ2ADQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 206",
+                  "time": [
+                    "2021-08-11T08:20:00.000",
+                    "2021-08-11T09:40:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-11T07:20:00.000Z",
+                    "2021-08-11T08:40:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 206",
+              "time": [
+                "2021-08-11T08:20:00.000",
+                "2021-08-11T09:40:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-11T07:20:00.000Z",
+                "2021-08-11T08:40:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~2272~ ~~DUB~08/11/2021 11:55~STN~08/11/2021 13:15~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6VHN42FFGEPOBXNARKJGLUZ5ODLVQUPAHSDHMCKOLMOIHQ2FMXJMCEEY7CFOAIFHMEPDOENQLMNBNN6VANIUVQFS2NEWGW5ZKJTAV7K6JLN56PGPFXFQ5XGWYGI4A7T4UQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 2272",
+                  "time": [
+                    "2021-08-11T11:55:00.000",
+                    "2021-08-11T13:15:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-11T10:55:00.000Z",
+                    "2021-08-11T12:15:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 2272",
+              "time": [
+                "2021-08-11T11:55:00.000",
+                "2021-08-11T13:15:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-11T10:55:00.000Z",
+                "2021-08-11T12:15:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 294~ ~~DUB~08/11/2021 15:30~STN~08/11/2021 16:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6ZFSB7DJ6XB6S4QFI4UWSFFH77WN7XADTCMM5TVDO45EBBSUOG7I4YMDAADL66YVCQQ3NFSHMUAG4DRROAJKJGZ2GM5VGL4FECY5HVRLSO35TKX6KR44R5EI6KTSKFO6VA",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 294",
+                  "time": [
+                    "2021-08-11T15:30:00.000",
+                    "2021-08-11T16:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-11T14:30:00.000Z",
+                    "2021-08-11T15:50:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 294",
+              "time": [
+                "2021-08-11T15:30:00.000",
+                "2021-08-11T16:50:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-11T14:30:00.000Z",
+                "2021-08-11T15:50:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 211~ ~~DUB~08/11/2021 16:30~STN~08/11/2021 17:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6X2CAC4XAINI7CBOWQYMY2QGKPEW64OCLXTRYZIMNL7H4Q4BL6PA5Y4CBBOOVUEK4RLPB3GUCOF733RUONT5CCZGUV2CLPAFLB5A6Y4LV5ACRF2MRFC657A3X55A2NE4CA",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 211",
+                  "time": [
+                    "2021-08-11T16:30:00.000",
+                    "2021-08-11T17:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-11T15:30:00.000Z",
+                    "2021-08-11T16:50:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 211",
+              "time": [
+                "2021-08-11T16:30:00.000",
+                "2021-08-11T17:50:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-11T15:30:00.000Z",
+                "2021-08-11T16:50:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 288~ ~~DUB~08/11/2021 18:25~STN~08/11/2021 19:45~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6RQYWH7UF4NXWFAFGXJU7FJFTJQYIRPEUIU5VLF7T4WD3U422EKU7FGQR4WSUVXKPKUAWZZWUZBIUB36XULWZTW2IRP4KUCBJJDMUI4F46SZWM7MXR6FV4W4HQOOH4N63A",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 288",
+                  "time": [
+                    "2021-08-11T18:25:00.000",
+                    "2021-08-11T19:45:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-11T17:25:00.000Z",
+                    "2021-08-11T18:45:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 288",
+              "time": [
+                "2021-08-11T18:25:00.000",
+                "2021-08-11T19:45:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-11T17:25:00.000Z",
+                "2021-08-11T18:45:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 272~ ~~DUB~08/11/2021 20:20~STN~08/11/2021 21:40~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6YY4IDFZKVDM7TTICTPX7U7TUHLVMJQ2X2VDP4ZP3OKPHTX4PIK54LA4HWIXFWOZBDC4JZJ24LSPBMDOGXQZXGAXHHXISGH4EOEK4LOUSONX4JLMHLJKETB2Q4K7LSFP5Q",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 272",
+                  "time": [
+                    "2021-08-11T20:20:00.000",
+                    "2021-08-11T21:40:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-11T19:20:00.000Z",
+                    "2021-08-11T20:40:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 272",
+              "time": [
+                "2021-08-11T20:20:00.000",
+                "2021-08-11T21:40:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-11T19:20:00.000Z",
+                "2021-08-11T20:40:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 298~ ~~DUB~08/11/2021 21:55~STN~08/11/2021 23:15~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6QT6QBIKVUREPIW2VHICKKO3C4KNHFAG2PYSXNMVYTBVL5TJDVTW7T26MGITD4Y7CXLRPKSB3VICFZQKN7J6HSJWIGGO2WQ2TACVYRNIPGXOZ6CV3ZUEVGNBBLFQ5MVWFQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 298",
+                  "time": [
+                    "2021-08-11T21:55:00.000",
+                    "2021-08-11T23:15:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-11T20:55:00.000Z",
+                    "2021-08-11T22:15:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 298",
+              "time": [
+                "2021-08-11T21:55:00.000",
+                "2021-08-11T23:15:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-11T20:55:00.000Z",
+                "2021-08-11T22:15:00.000Z"
+              ],
+              "duration": "01:20"
+            }
+          ]
+        },
+        {
+          "dateOut": "2021-08-12T00:00:00.000",
+          "flights": [
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 202~ ~~DUB~08/12/2021 06:25~STN~08/12/2021 07:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6YHAVYP55GA4FQ7UUVGCYKLC245TZER2UYCU3JNTPXU5B6NXQWJRVE6XMFHHFIMVMOGRZ4HHVTSAHNWU5JJYMUN262VVU2TF4DRZBN34EUVRK7KF2TKDRW5LUAOGTL33XA",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 202",
+                  "time": [
+                    "2021-08-12T06:25:00.000",
+                    "2021-08-12T07:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-12T05:25:00.000Z",
+                    "2021-08-12T06:50:00.000Z"
+                  ],
+                  "duration": "01:25"
+                }
+              ],
+              "flightNumber": "FR 202",
+              "time": [
+                "2021-08-12T06:25:00.000",
+                "2021-08-12T07:50:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-12T05:25:00.000Z",
+                "2021-08-12T06:50:00.000Z"
+              ],
+              "duration": "01:25"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 206~ ~~DUB~08/12/2021 08:20~STN~08/12/2021 09:40~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6XXYFAQZG3NWJH4UZRGYTFZB7RU3ASDAUKFMXLQOHKQJSIMDYTTRP67FVON5UJLECBIBZAQONEVHZ62MBQH57PVFHJ5NW5R63OSFZH4GE63HOWUJQMXYPWW6EEUFZOW2CA",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 206",
+                  "time": [
+                    "2021-08-12T08:20:00.000",
+                    "2021-08-12T09:40:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-12T07:20:00.000Z",
+                    "2021-08-12T08:40:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 206",
+              "time": [
+                "2021-08-12T08:20:00.000",
+                "2021-08-12T09:40:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-12T07:20:00.000Z",
+                "2021-08-12T08:40:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~2272~ ~~DUB~08/12/2021 11:55~STN~08/12/2021 13:15~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6VHN42FFGEPOBXNARKJGLUZ5ODKH4JYG6ZVHXLVMG6ZQFQ4TJGGCG2WJ6LFN3UYP5BJHRRLSGCM2RB4VHALSFIQEQJREANNTRV5MJFLXRMDVVQFJZIFI5KWJE33L4LGHDA",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 2272",
+                  "time": [
+                    "2021-08-12T11:55:00.000",
+                    "2021-08-12T13:15:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-12T10:55:00.000Z",
+                    "2021-08-12T12:15:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 2272",
+              "time": [
+                "2021-08-12T11:55:00.000",
+                "2021-08-12T13:15:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-12T10:55:00.000Z",
+                "2021-08-12T12:15:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 294~ ~~DUB~08/12/2021 15:30~STN~08/12/2021 16:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6ZFSB7DJ6XB6S4QFI4UWSFFH77WNCF6EPKQM2VPN4SQK4XGCM67JI7FOZOXJMS5L77244Y5DPYVCYQ2BDFT2TXX6AKI7BBWXKIVVJOQZFYVLUDHLABIPCTRH3D7REATADQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 294",
+                  "time": [
+                    "2021-08-12T15:30:00.000",
+                    "2021-08-12T16:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-12T14:30:00.000Z",
+                    "2021-08-12T15:50:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 294",
+              "time": [
+                "2021-08-12T15:30:00.000",
+                "2021-08-12T16:50:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-12T14:30:00.000Z",
+                "2021-08-12T15:50:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 211~ ~~DUB~08/12/2021 16:30~STN~08/12/2021 17:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6X2CAC4XAINI7CBOWQYMY2QGKPESJXHNVTVG56DPFV6NGAUHCHBBTVPLPHKOFTUWS527HIKLPAEWO5VMHTIUWDKBN7YKQMLFAXPVV5ENLI37AN4XHKLHB4BGTHDPFAHNHQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 211",
+                  "time": [
+                    "2021-08-12T16:30:00.000",
+                    "2021-08-12T17:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-12T15:30:00.000Z",
+                    "2021-08-12T16:50:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 211",
+              "time": [
+                "2021-08-12T16:30:00.000",
+                "2021-08-12T17:50:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-12T15:30:00.000Z",
+                "2021-08-12T16:50:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 288~ ~~DUB~08/12/2021 18:55~STN~08/12/2021 20:15~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6RQYWH7UF4NXWFAFGXJU7FJFTJRM6OLULV7VQMNPIMRT7K2JEMMOQ44OXITTKVNUMIUGUGAXCD654JCGVSKTPBVZ4HV4L5VLIVEVMSIVFRI7BPRR2E64XVANU6I7ATOU4A",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 288",
+                  "time": [
+                    "2021-08-12T18:55:00.000",
+                    "2021-08-12T20:15:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-12T17:55:00.000Z",
+                    "2021-08-12T19:15:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 288",
+              "time": [
+                "2021-08-12T18:55:00.000",
+                "2021-08-12T20:15:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-12T17:55:00.000Z",
+                "2021-08-12T19:15:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 272~ ~~DUB~08/12/2021 20:20~STN~08/12/2021 21:40~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6YY4IDFZKVDM7TTICTPX7U7TUHLWGGOKMHWCCNKDKJWI3SLOEJYJ3UFS5UDW54U7O3XOWAJJEFHZBAER3NUMT6IFI5LEIKM63QXLTWHKKT2XEZ3VCOBBI5HWUSZTYXUCBQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 272",
+                  "time": [
+                    "2021-08-12T20:20:00.000",
+                    "2021-08-12T21:40:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-12T19:20:00.000Z",
+                    "2021-08-12T20:40:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 272",
+              "time": [
+                "2021-08-12T20:20:00.000",
+                "2021-08-12T21:40:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-12T19:20:00.000Z",
+                "2021-08-12T20:40:00.000Z"
+              ],
+              "duration": "01:20"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~ 298~ ~~DUB~08/12/2021 21:55~STN~08/12/2021 23:15~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "YWSHSDKP5AFHTRVXE7ZY2M45RJ5Y7YQNMWKPBPXRC5PVZVZQYR6QT6QBIKVUREPIW2VHICKKO3C4LEQ36KZQSCZSYSKF53QIB6UMNFCVFAHBHAANQUMIVIF3FZPT4AX53ZHUUMFAEMZXMBHPRC35TKNYW7ISIVOBWGWE2UOJWV3VFRC5SSIQ",
+                "fareClass": "S",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 210.870000000,
+                    "count": 1,
+                    "hasDiscount": true,
+                    "publishedFare": 256.470000000,
+                    "discountInPercent": 21,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0.0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "DUB",
+                  "destination": "STN",
+                  "flightNumber": "FR 298",
+                  "time": [
+                    "2021-08-12T21:55:00.000",
+                    "2021-08-12T23:15:00.000"
+                  ],
+                  "timeUTC": [
+                    "2021-08-12T20:55:00.000Z",
+                    "2021-08-12T22:15:00.000Z"
+                  ],
+                  "duration": "01:20"
+                }
+              ],
+              "flightNumber": "FR 298",
+              "time": [
+                "2021-08-12T21:55:00.000",
+                "2021-08-12T23:15:00.000"
+              ],
+              "timeUTC": [
+                "2021-08-12T20:55:00.000Z",
+                "2021-08-12T22:15:00.000Z"
+              ],
+              "duration": "01:20"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serverTimeUTC": "2020-06-09T16:35:03.289Z"
+}
+
