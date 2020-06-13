@@ -1,6 +1,6 @@
 # FlySearch
 
-It is a practice with the API that Ryanair which shows a list of airport stations and performs a selective search for flights according to the date entered
+It is a practice with the API that Ryanair which shows a list of airport stations and performs a selective search for flights according to the date entered.
 
 
 ## Image Captures
