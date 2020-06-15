@@ -58,7 +58,7 @@ class SearchResultsViewController: UIViewController, UITableViewDelegate, UITabl
         cell.dateLabel.text = flightData["dateOut"]
         cell.flyNumberLabel.text =  flightData["flightNumber"]
         cell.regularFareLabel.text = flightData["priceNumber"]
-        
+        // CHECK MALAGA TO AMSTERDAM 30 JUNE
         
         return cell
     }

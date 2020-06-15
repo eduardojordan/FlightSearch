@@ -34,7 +34,6 @@ class FlightSearchConnections {
                     let jsonDecoder = JSONDecoder()
                     let dataResponse = try jsonDecoder.decode(FlightSearch.self, from: data)
                     
-            
                     for item in 0..<dataResponse.trips[0].dates!.count{
                         var dictionary = [String:String]()
                         dictionary.updateValue(String(dataResponse.trips[0].dates![item].dateOut!.prefix(10)), forKey: "dateOut")
@@ -47,7 +46,6 @@ class FlightSearchConnections {
                             }
                             
                         }
-                            print(">>",dictionary)
                             self.flightSearchData.append(dictionary)
                     }
 
