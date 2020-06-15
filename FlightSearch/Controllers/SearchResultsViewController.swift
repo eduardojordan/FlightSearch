@@ -53,10 +53,12 @@ class SearchResultsViewController: UIViewController, UITableViewDelegate, UITabl
         let cell = tableView.dequeueReusableCell(withIdentifier: "CustomCell", for: indexPath) as! CustomCellResults
         
         let flightData = self.flightSearchData[indexPath.row]
+     
         
         cell.dateLabel.text = flightData["dateOut"]
         cell.flyNumberLabel.text =  flightData["flightNumber"]
-        cell.regularFareLabel.text = flightData["priceNumber"]! + " €"
+        cell.regularFareLabel.text = flightData["priceNumber"]
+        
         
         return cell
     }

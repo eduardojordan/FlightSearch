@@ -33,19 +33,24 @@ class FlightSearchConnections {
                 do {
                     let jsonDecoder = JSONDecoder()
                     let dataResponse = try jsonDecoder.decode(FlightSearch.self, from: data)
-                    let dateOut = dataResponse.trips[0].dates![0].dateOut!.prefix(10)
-                    let flyNumber = dataResponse.trips[0].dates![0].flights![0].flightNumber!
-                    let priceNumber = dataResponse.trips[0].dates![0].flights![0].regularFare?.fares![0].publishedFare!
-                
-                    for i in 0..<dateOut.count{
-                        
+                    
+            
+                    for item in 0..<dataResponse.trips[0].dates!.count{
                         var dictionary = [String:String]()
-                        dictionary.updateValue(String(dateOut), forKey: "dateOut")
-                        dictionary.updateValue(flyNumber, forKey: "flightNumber")
-                        dictionary.updateValue("\(priceNumber!)", forKey: "priceNumber")
+                        dictionary.updateValue(String(dataResponse.trips[0].dates![item].dateOut!.prefix(10)), forKey: "dateOut")
                         
-                        self.flightSearchData.append(dictionary)
+                        if dataResponse.trips[0].dates![item].flights!.count != 0{
+                            dictionary.updateValue(dataResponse.trips[0].dates![item].flights![0].flightNumber!, forKey: "flightNumber")
+                            
+                            if dataResponse.trips[0].dates![item].flights![0].regularFare?.fares!.count != 0{
+                                dictionary.updateValue("\(dataResponse.trips[0].dates![item].flights![0].regularFare?.fares![0].publishedFare! ?? 0.00 )", forKey: "priceNumber")
+                            }
+                            
+                        }
+                            print(">>",dictionary)
+                            self.flightSearchData.append(dictionary)
                     }
+
                     completion(self.flightSearchData)
                 } catch  {
                     print("Error. \(error)")
